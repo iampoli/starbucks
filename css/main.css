@@ -75,4 +75,8 @@ header {
   top: -110px;
   transition: all .3s ease-in-out;
 }
+
+.transparent-nav {
+  background-color: rgba(255, 255, 255, 0)
+}
 /*# sourceMappingURL=main.css.map */
