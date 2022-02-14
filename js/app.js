@@ -52,13 +52,13 @@ const scrollFunction = () => {
     if (scrollY > currY) {
         scrollY = currY
         return (
-            !header.classList.contains('hide-nav') && header.classList.add('hide-nav')
+            header.classList.contains('hide-nav') && header.classList.remove('hide-nav')
         )
     }
 
     scrollY = currY
     return (
-        header.classList.contains('hide-nav') && header.classList.remove('hide-nav')
+        !header.classList.contains('hide-nav') && header.classList.add('hide-nav')
     )
 }
 
