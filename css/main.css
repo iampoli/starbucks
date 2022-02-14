@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+body {
+  font-family: 'SoDo Sans SemiBold',Arial;
+  color: #1e3932;
+  font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
