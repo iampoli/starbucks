@@ -1,4 +1,5 @@
 .introduction{
+    user-select: none;
     &__item{
         position: relative;
         &__img{
@@ -26,17 +27,13 @@
                 font-family: $ff-1;
                 letter-spacing: $ls-3;
                 margin-bottom: $mg-1;
+                user-select: none;
             }
-            h1{
-                font-size: $fs-6;
-                margin-bottom: $mg-1;
-                font-weight: $fw-2;
-                line-height: $lh-0;
-            }
+           
             p{
                 margin-bottom: $mg-9;
-                font-weight: $fw-2;
             }
+            
         }
         
     }

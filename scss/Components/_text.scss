@@ -8,3 +8,17 @@
             font-family: $ff-1;
             letter-spacing: $ls-2;
 }
+.main-header{
+    font-size: $fs-6;
+    margin-bottom: $mg-1;
+    font-weight: $fw-2;
+    line-height: $lh-0;
+}
+
+.timer-w-btn{
+    margin-left: $mg-3 - 1;
+    color: $color-green-0;
+    i{
+        margin-right: $mg-0 ;
+    }
+}

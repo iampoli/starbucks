@@ -1,0 +1,23 @@
+.about{
+   text-align: center;
+    &__img{
+        text-align: center;
+    }
+    &__content{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        &__container{
+            width: 553px;
+            h1{
+                line-height: $lh-1;
+            }
+            p{
+                font-size: $fs-3;
+                letter-spacing: $ls-1;
+                margin-bottom: $mg-3 - 5;
+            }
+           
+        }
+    }
+}

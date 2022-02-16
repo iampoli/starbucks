@@ -1,0 +1,27 @@
+.roast{
+    background-color: $color-green-1;
+    &__img{
+        text-align: center;
+    }
+    &__content{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &__container{
+            color: $color-white-0;
+            width: 530px;
+            h1{
+                line-height: $lh-0;
+            }
+            p{
+                font-size: $fs-3;
+                letter-spacing: $ls-1;
+                margin-bottom: $mg-3 - 5;
+            }
+            span{
+                color:$color-white-0 !important ;
+            }
+        }
+    }
+}

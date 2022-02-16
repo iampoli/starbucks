@@ -4,13 +4,17 @@ $color-secondary:#006241;
 $color-white-0: #fff;
 
 $color-green-0:#00754a;
+$color-green-1:#1e3932;
+
 
 $color-gray-0:#9b9b9b;
 $color-gray-1:#f2f0eb;
+$color-gray-2:#e6e6e657;
+
 
 
 // background
-$bg-0:linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,0.6));
+$bg-0:linear-gradient(to left,rgba(0,0,0,0) 40%,rgba(0,0,0,0.6));
 
 
 // padding
@@ -77,6 +81,10 @@ $border-radius-0:75px;
 
 // line height
 $lh-0:60px;
+$lh-1:74px;
+$lh-2:11px;
+
+
 
 
 
