@@ -15,19 +15,21 @@
        left: 50%;
        top: 18%;
        width: 85%;
+       margin: auto;
        transform: translateX(-50%);
-       transition: all 1.2s linear;
-       transition-delay: .5s;
-       opacity: 0;
-       
-       h1{
-           font-size: $fs-6 + 10;
-           font-family: $ff-0;
-           margin-bottom: $mg-0;
-       }
-       p{
-           font-size:$fs-3 ;
-           margin-bottom: $mg-1;
-       }
+       &__container{
+           transition: all 1.2s linear !important;
+           transition-delay: .8s !important;
+           
+           h1{
+               font-size: $fs-6 + 10;
+               font-family: $ff-0;
+               margin-bottom: $mg-0;
+            }
+            p{
+                font-size:$fs-3 ;
+                margin-bottom: $mg-1;
+            }
+        }
    }
 }

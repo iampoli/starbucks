@@ -39,6 +39,26 @@ window.onscroll = scrollFunction
 
 // onload banner
 
-window.onload=()=>{
-    document.querySelector(".banner__content").style.opacity="1";
-}
+// window.onload=()=>{
+//     document.querySelector(".banner__content").style.opacity="1";
+// }
+
+
+// inter
+const observerItems = document.querySelectorAll(".obs")
+
+let observer = new IntersectionObserver(entries=>{
+   entries.forEach(entry=>{
+     entry.target.classList.toggle("show",entry.isIntersecting);
+     if(entry.isIntersecting){
+         observer.unobserve(entry.target);
+     }
+   })
+})
+
+observerItems.forEach(item=>{
+    observer.observe(item);
+})
+
+
+

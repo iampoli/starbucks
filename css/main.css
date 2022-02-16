@@ -76,24 +76,26 @@ header {
     left: 50%;
     top: 18%;
     width: 85%;
-    transform: translateX(-50%);
-    transition: all 1.2s linear;
-    transition-delay: .5s;
-    opacity: 0; }
-    .banner__content h1 {
-      font-size: 72px;
-      font-family: "Redressed", cursive;
-      margin-bottom: 10px; }
-    .banner__content p {
-      font-size: 18px;
-      margin-bottom: 20px; }
+    margin: auto;
+    transform: translateX(-50%); }
+    .banner__content__container {
+      transition: all 1.2s linear !important;
+      transition-delay: .8s !important; }
+      .banner__content__container h1 {
+        font-size: 72px;
+        font-family: "Redressed", cursive;
+        margin-bottom: 10px; }
+      .banner__content__container p {
+        font-size: 18px;
+        margin-bottom: 20px; }
 
 .atHome {
   background-color: #f2f0eb; }
   .atHome .atHome__content {
     text-align: center; }
     .atHome .atHome__content h2 {
-      margin-bottom: 27px; }
+      margin-bottom: 27px;
+      transform: translateY(24px); }
     .atHome .atHome__content p {
       width: 80%;
       margin: auto;
@@ -233,6 +235,15 @@ header {
 
 .background-nav {
   background-color: white; }
+
+.obs {
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  transition-delay: .25s; }
+
+.show {
+  transform: translate(0) !important;
+  opacity: 1 !important; }
 
 .btn-green {
   color: #fff;
