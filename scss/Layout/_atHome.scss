@@ -1,0 +1,16 @@
+.atHome{
+    padding: $pd-5 $pd-4;
+    background-color: $color-gray-1;
+    .atHome__content{
+        text-align: center;
+        h2{
+            margin-bottom: $mg-2 + 2;
+        }
+        p{
+            width: 80%;
+            margin: auto;
+            font-size:$fs-3 ;
+            font-weight: $fw-2;
+        }   
+    }
+}

@@ -1,8 +1,15 @@
 @import './Helpers/variable';
-
+@import './Helpers/mixin';
 
 @import './Base/reset';
+@import './Base/customize';
 
 
 @import './Layout/header';
 @import './Layout/banner';
+@import './Layout/atHome';
+@import './Layout/introduction';
+
+@import './Components/headerInteractive';
+@import './Components/button';
+@import './Components/subHeading';

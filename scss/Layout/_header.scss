@@ -14,6 +14,7 @@ header{
         align-items: center;
         justify-content: space-between;
         .header-nav{
+            outline: none;
             font-weight: $fw-2;
             padding: 0;
             list-style: none;

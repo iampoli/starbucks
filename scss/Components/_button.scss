@@ -1,0 +1,4 @@
+.btn-green{
+    @include styleButton($color-white-0,$color-secondary,$color-secondary,$border-radius-0,$fs-1,$fw-2,$pd-8,$pd-9);
+}
+

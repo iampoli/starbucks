@@ -6,6 +6,11 @@ $color-white-0: #fff;
 $color-green-0:#00754a;
 
 $color-gray-0:#9b9b9b;
+$color-gray-1:#f2f0eb;
+
+
+// background
+$bg-0:linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,0.6));
 
 
 // padding
@@ -17,6 +22,10 @@ $pd-4:60px;
 $pd-5:94px;
 $pd-6:100px;
 $pd-7:128px;
+$pd-8:15px;
+$pd-9:30px;
+
+
 
 // fs
 $fs-0:10px;
@@ -26,6 +35,8 @@ $fs-3:18px;
 $fs-4:22px;
 $fs-5:48px;
 $fs-6:62px;
+$fs-7:20px;
+
 
 
 // margin
@@ -38,10 +49,14 @@ $mg-5:116px;
 $mg-6:143px;
 $mg-7:233px;
 $mg-8:90px;
+$mg-9:58px;
+
 // letter spacing 
 $ls-0:0.5px;
 $ls-1:1px;
-$ls-2:2px;
+$ls-2:8px;
+$ls-3:4px;
+
 
 
 
@@ -49,7 +64,19 @@ $ls-2:2px;
 $fw-0:bold;
 $fw-1:400;
 $fw-2:500;
-$fw-2:600;
+
+
+//font familly
+$ff-0:'Redressed', cursive;
+$ff-1:'Bebas Neue', cursive;
+
+
+// border radius
+$border-radius-0:75px;
+
+
+// line height
+$lh-0:60px;
 
 
 
