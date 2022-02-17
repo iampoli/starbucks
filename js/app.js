@@ -37,11 +37,7 @@ window.onscroll = scrollFunction
 
 
 
-// onload banner
 
-// window.onload=()=>{
-//     document.querySelector(".banner__content").style.opacity="1";
-// }
 
 
 // inter
@@ -61,4 +57,43 @@ observerItems.forEach(item=>{
 })
 
 
+
+// sub-menu show
+let navs = document.querySelectorAll(".nav")
+
+let shopMenu= document.querySelector(".shop-menu")
+let recipesMenu = document.querySelector(".recipes-menu")
+let storyMenu = document.querySelector(".story-menu")
+
+
+navs.forEach(nav=>{ 
+    nav.onmouseover=()=>{
+        if(!nav.classList.contains("active")){
+            if(nav.classList.contains("shop")){
+                shopMenu.classList.add("active")
+                recipesMenu.classList.remove("active")
+                storyMenu.classList.remove("active");
+                return;
+            }
+            if(nav.classList.contains("recipes")){
+                recipesMenu.classList.add("active")
+                shopMenu.classList.remove("active")
+                storyMenu.classList.remove("active");
+                return
+            }
+            if(nav.classList.contains("story")){
+                recipesMenu.classList.remove("active")
+                shopMenu.classList.remove("active")
+                storyMenu.classList.add("active");
+                return
+            }
+        }
+    }
+})
+
+header.onmouseleave=()=>{
+    recipesMenu.classList.remove("active")
+    shopMenu.classList.remove("active")
+    storyMenu.classList.remove("active");
+}
 

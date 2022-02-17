@@ -34,23 +34,49 @@ header{
         }
         .nav-left{
             li{
-                &:first-of-type{
-                    padding-left: 0;
-                }
-                padding: $pd-0 $pd-2;
+                height: 50px;
+                a{
+                    display: inline-block;
+                    padding:   $pd-0 $pd-3 + 7;
+                    &:first-of-type{
+                        padding-left: 0;
+                    }
+                    &::after{
+                        transition: all .5s;
+                        content: '';
+                        width: 0%;
+                        display: block;
+                        height: 2px;
+                        background-color: $color-green-1;
+                        margin-top: 6px;
+                    }
+                    &:hover {
+                        &::after{
+                            width: 100%;
+                        }
+                    }
+                } 
+                
             }
         }
         .nav-right{
-           .search{
-               i{
-
-                   margin-right: $mg-0 + 4;
-               }
-           }
-           .lan-select{
-                   margin-left: $mg-3 + 3;
-                   margin-right: $mg-1 - 4;
-           }
+            li{
+                height: 50px;
+                a{
+                    display: inline-block;
+                    padding-top: $pd-0;
+                }
+                .search{
+                    i{
+                        
+                        margin-right: $mg-0 + 4;
+                    }
+                }
+                .lan-select{
+                    margin-left: $mg-3 + 3;
+                    margin-right: $mg-1 - 4;
+                }
+            }
            
         }
     }

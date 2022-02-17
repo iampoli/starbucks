@@ -22,26 +22,149 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header id="nav">
+    <header class="header" id="nav">
             <div class="header__content">
-                <ul class="nav-left header-nav">
-                    <li><a href="#">Explore our products</a></li>
-                    <li><a href="#"> Make it at home</a></li>
-                    <li><a href="#">Learn more</a></li>
-                </ul>
-                <div class="nav-logo">
-                    <a href="#">
-                        <img src="./img/starbucks_logo.svg" alt="logo">
-                    </a>
+                    <ul class="nav-left header-nav">
+                        <li class="shop nav"><a href="#">Explore our products</a>
+                        </li>
+                        <li class="recipes nav"><a href="#"> Make it at home</a></li>
+                        <li class="story nav"><a href="#">Learn more</a></li>
+                    </ul>
+                    <div class="nav-logo">
+                        <a href="#">
+                            <img src="./img/starbucks_logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="nav-right header-nav">
+                        <li><a  class="search" href="#">
+                            <i class="fa fa-search"></i>Search
+                        </a></li>
+                        <li ><a class="lan-select" href="#"><i class="fa fa-globe"></i></a></li>
+                        <li class="theme-change"><a href="#" ><i class="fa fa-adjust"></i></a></li>
+                    </ul>
                 </div>
-                <ul class="nav-right header-nav">
-                    <li><a  class="search" href="#">
-                        <i class="fa fa-search"></i>Search
-                    </a></li>
-                    <li ><a class="lan-select" href="#"><i class="fa fa-globe"></i></a></li>
-                    <li class="theme-change"><a href="#" ><i class="fa fa-adjust"></i></a></li>
-                </ul>
-            </div>
+                <div class="shop-menu header-sub-menu">
+                    <div class="header-sub-menu-wrapper ">
+                        <ul class="header-sub-menu-list">
+                            <li><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img" src="./img/starbucks_nav-1.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Browse coffees</h3>
+                                    <p>
+                                        Browse from the best collection of the coffees.
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img" src="./img/starbucks_nav-2.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Other products</h3>
+                                    <p>
+                                        Browse from the best collection of the Starbucks.
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li class="blonde-roast"><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img style-menu-img" src="./img/starbucks_nav-3.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Starbucks Blonde<sup>®</sup>  Roast</h3>
+                                    <p>
+                                        Love an easy-drinking cup with mellow...
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li class="medium-roast"><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img style-menu-img" src="./img/starbucks_nav-4.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Medium Roast</h3>
+                                    <p>
+                                        Try Medium Roast for a smooth, balance..
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li class="dark-roast"><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img style-menu-img" src="./img/starbucks_nav-5.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Dark Roast</h3>
+                                    <p>
+                                        Fancy a coffee with a fuller body and...
+                                    </p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipes-menu header-sub-menu" >
+                    <div class="header-sub-menu-wrapper ">
+                        <ul class="header-sub-menu-list" style="padding-top: 0;">
+                            <li><a href="#">
+                                <div class="header-sub-menu-img">
+                                    <img class="img" src="./img/starbucks_nav-6.png" alt="">
+                                </div>
+                                <div class="header-sub-menu-description">
+                                    <h3>Browse recipes</h3>
+                                    <p>
+                                        From mouthwatering to refreshing iced beverages,...
+                                    </p>
+                                </div>
+                            </a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="story-menu header-sub-menu" >
+                    <div class="header-sub-menu-wrapper ">
+                        <ul class="header-sub-menu-list" >
+                            <li><a href="#">
+                                <div class="header-sub-menu-description">
+                                    <h3>Story collection</h3>
+                                    <p>
+                                        What kind of roast do you prefer? Starbucks Blonde
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="header-sub-menu-description">
+                                    <h3>About starbucks</h3>
+                                    <p>
+                                        Starbucks®  has come a long way since that very...
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="header-sub-menu-description">
+                                    <h3>Ethical sourcing</h3>
+                                    <p>
+                                      Together Starbucks®  and Conversation...
+                                    </p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="header-sub-menu-description">
+                                    <h3> <li><a href="#">
+                                        <div class="header-sub-menu-description">
+                                            <h3>Ethical sourcing</h3>
+                                            <p>
+                                                Which roast profile do you prefer? Starbucks...
+                                            </p>
+                                        </div>
+                                    </a></li></h3>
+                                    
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
     </header>
     <section class="banner ">
         <div class="banner__content">
@@ -145,8 +268,6 @@
     </div>
     </div>
    </section>
-
-
    <footer class="footer  mt-5">
        <div class="footer__logo">
            <img src="./img/starbucks_footer-logo.svg" alt="footer logo">
@@ -186,6 +307,20 @@
             </div>
         </div>
    </footer>
+
+
+   <!-- <div class="search-layout">
+        <div class="search-overlay">
+        </div>
+        <div class="seach-layout__container">
+            <div class="btn-seach">
+                <button>X</button>
+            </div>
+            <div class="search-input">
+                <input type="text" placeholder="SEARRRAsdassd">
+            </div>
+        </div> -->
+   </div>
 
 
 
