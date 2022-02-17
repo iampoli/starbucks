@@ -308,8 +308,8 @@ header {
   padding: 100px 60px; }
 
 .header-sub-menu {
-  transition: opacity .5s  ease-in-out;
-  transition-delay: .1s;
+  transition: .3s  ease-in-out;
+  transition-property: opacity;
   overflow: hidden;
   opacity: 0;
   height: 0;
