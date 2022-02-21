@@ -97,3 +97,23 @@ header.onmouseleave=()=>{
     storyMenu.classList.remove("active");
 }
 
+// spinner circle
+
+$(document).ready(function(){
+    let round =180;
+    let spin = document.querySelector("#spinner");
+    let arrow =   document.querySelectorAll(".sliderMenu .slick-arrow");
+    let slickSlide = document.querySelectorAll(".sliderMenu .slick-slide");
+    arrow.forEach(function(item){
+        item.addEventListener("click",()=>{
+           spin.style.transform=`translate(-50%) scale(1.3) rotate(${round}deg)`
+            round+=90;
+        })
+    })
+})
+
+
+
+
+
+

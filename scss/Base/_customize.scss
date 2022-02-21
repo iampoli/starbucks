@@ -1,6 +1,46 @@
+// owl carousel
 .owl-dots{
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+
+// slick btn 
+
+.sliderMenu .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 33%;
+    height: 100%;
+    z-index: 50;
+}
+.sliderMenu .slick-prev::before{
+    content: "";
+}
+.sliderMenu .slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 33%;
+    height: 100%;
+    z-index: 50;
+}
+.sliderMenu .slick-next::before{
+    content: "";
+}
+
+
+.slick-slide{
+    transition: all 1s  !important;
+    transform: scale(1) !important;
+    opacity: .5;
+}
+
+
+.slick-slide.slick-current{
+    transform: scale(1.15) !important;
+    opacity: 1;
 }
